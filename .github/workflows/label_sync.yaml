@@ -1,0 +1,13 @@
+name: Label Sync
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/labels.yaml"
+
+jobs:
+  label_sync:
+    uses: kkrypt0nn/actions/.github/workflows/label_sync.yaml@4370b5407f227731cd795ae57ba6336ef6dc777c # v0.1.0

@@ -1,0 +1,12 @@
+name: Go Boilerplate CI (Lint & Test)
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  ci:
+    uses: kkrypt0nn/actions/.github/workflows/go_ci.yaml@4370b5407f227731cd795ae57ba6336ef6dc777c # v0.1.0

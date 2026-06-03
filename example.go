@@ -1,6 +1,6 @@
 package boilerplate
 
-import "github.com/kkrypt0nn/tangra"
+import "github.com/kkrypt0nn/tangra/v2"
 
 func Example42() int {
 	l := tangra.NewLogger()
