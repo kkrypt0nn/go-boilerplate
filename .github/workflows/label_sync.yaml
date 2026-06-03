@@ -9,6 +9,7 @@ on:
       - ".github/labels.yaml"
 
 permissions:
+  contents: read
   issues: write
 
 jobs:

@@ -6,6 +6,10 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   labeler:
     uses: kkrypt0nn/actions/.github/workflows/labeler.yaml@4370b5407f227731cd795ae57ba6336ef6dc777c # v0.1.0
